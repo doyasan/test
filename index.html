@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>gitのtest</title>
+</head>
+<body>
+	<h1>git test</h1>
+	
+	<script>
+		/* 現在時刻表示 */
+
+		let nowTime = new Date(); //  現在日時を得る
+		let nowHour = nowTime.getHours(); // 時間を抜き出す
+		let nowMin  = nowTime.getMinutes(); // 分数を抜き出す
+		let nowSec  = nowTime.getSeconds(); // 秒数を抜き出す
+		let msg = "現在の時刻：" + nowHour + ":" + nowMin + ":" + nowSec;
+
+		console.log(msg);
+		document.write(msg);
+	</script>
+</body>
+</html>
